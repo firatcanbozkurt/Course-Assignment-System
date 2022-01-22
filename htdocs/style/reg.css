@@ -1,0 +1,140 @@
+#register {
+  float: left;
+  margin-right: 50px;
+}
+#register2 {
+  float: right;
+}
+
+#nav-bar {
+  padding: 0;
+  margin: 0;
+  width: auto;
+  height: auto;
+  background-color: #020024;
+}
+#nav-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+#nav-ul li {
+  display: inline;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+#nav-ul li a {
+  color: #fff;
+}
+#headname {
+  font-size: 25px;
+}
+.right-side {
+  float: right;
+  padding: 25px 30px;
+}
+.left-side {
+  float: left;
+  padding: 20px 50px;
+}
+.right-side a {
+  font-size: 20px;
+}
+.left-side a {
+  font-size: 25px;
+}
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #212121;
+  color: #fff;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 0.1em;
+}
+h1 {
+  font-size: 23px;
+}
+#course_table,
+th,
+td {
+  border: 2px white solid;
+  border-radius: 5px;
+}
+
+.courses_div {
+  margin-left: auto;
+  margin-right: auto;
+}
+.inputs {
+  display: block;
+  margin-top: 5px;
+  width: 200px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  background-color: #191919;
+  text-align: center;
+  border: 3px solid rgb(8, 185, 255);
+}
+input {
+  color: white;
+}
+.course-page {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  height: fit-content;
+}
+.course-page li {
+  list-style-type: none;
+  margin-left: 100px;
+}
+.course-page li a {
+  text-decoration: none;
+}
+/*start*/
+
+/*end*/
+ul {
+  overflow: hidden;
+}
+#regbtn {
+  transition: 0.5s;
+  border: 2px solid #2ecc71;
+
+  margin-top: 20px;
+}
+#regbtn:hover {
+  background-color: #2ecc71;
+  cursor: pointer;
+}
+.inputs:hover {
+  transition: 0.5s;
+
+  border-color: #2ecc71;
+}
+#regbtn {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+.right-side:hover {
+  border-top-right-radius: 40%;
+  border-bottom-left-radius: 40%;
+
+  background-image: linear-gradient(green, yellow);
+  transition: 1.2s;
+}
+#your-course p {
+  font-family: "Oswald";
+  font-size: 3em;
+}
+#accept_id {
+  padding: 20px 0;
+  background-color: rgb(85, 88, 87);
+}
